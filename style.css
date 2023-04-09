@@ -1,0 +1,243 @@
+html, body { 
+    height: 97%; 
+    width: 100%; 
+    margin: 0;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.tabulka {
+    width: 94%;
+    height: 96%;
+    margin: 2% 3% 2% 3%;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+
+.tabulka-ucet {
+    width: 94%;
+    height: 96%;
+    margin: 2% 3% 2% 3%;
+    border: 10px solid green;
+    border-radius: 50px;
+}
+
+.my_table {
+    border: 0;
+    width: 100%;
+}
+
+.statistika {
+    width: 100%;
+    text-align: center;
+}
+
+.tabulka-kvadrov {
+    width: 94%;
+    height: 96%;
+    margin: 2% 3% 2% 3%;
+    border: 10px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.tabulka-2D {
+    width: 94%;
+    height: 96%;
+    margin: 2% 3% 2% 3%;
+    border: 10px solid red;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.tabulka-3D {
+    width: 94%;
+    height: 96%;
+    margin: 2% 3% 2% 3%;
+    border: 10px solid yellow;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.logout {
+    width: 100%;
+}
+
+.l-button {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.k-button {
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.g-button {
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.gg-button {
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.login {
+    width: 100%;
+    border: 0;
+    text-align: center;
+}
+
+.leva-polovina {
+    width: 50%;
+    text-align: right;
+    padding: 5px;
+}
+
+.prava-polovina {
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+}
+
+.vysledky1 {
+    width: 25%;
+    text-align: center;
+}
+
+.vysledky2 {
+    width: 25%;
+    text-align: center;
+}
+
+.vysledky3 {
+    width: 25%;
+    text-align: center;
+}
+
+.vysledky4 {
+    width: 25%;
+    text-align: center;
+}
+
+
+td {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.zoom1 {
+    padding: 50px;
+    background-image: url(foto/circle-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom2 {
+    padding: 50px;
+    background-image: url(foto/circle-red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom3 {
+    padding: 50px;
+    background-image: url(foto/circle-yellow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.zoom4 {
+    padding: 50px;
+    background-image: url(foto/circle-green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.odkaz {
+    width: 200%;
+    height: 200%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.odkaz1 {
+    width: 200%;
+    height: 200%;
+    margin-left: -50px;
+    margin-top: -130px;
+}
+
+.zoom1:hover, .zoom2:hover, .zoom3:hover, .zoom4:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
